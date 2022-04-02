@@ -29,8 +29,8 @@
 		
 			-- Auto Stats
 			["Melee"] = false,
-			["Defense"] = false,
-			["Sword"] = true,
+			["Defense"] = true,
+			["Sword"] = false,
 			["Gun"] = false,
 			["Demon Fruit"] = false,
 		
