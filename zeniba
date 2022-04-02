@@ -3,7 +3,7 @@
 	if getgenv().Setting then else
 		getgenv().Setting = {
 			["Join Team"] = "Pirate", -- "Pirate","Marine"
-			["Auto Farm Level"] = true,
+			["Auto Farm Level"] = false,
 		
 			-- Setting etc
 			["Select Weapon"] = "Electro",
@@ -39,7 +39,7 @@
 			["Auto Buy Exp x2[ Exp Expire ]"] = true,
 	
 			-- Players
-			["Bounty Hop"] = false
+			["Bounty Hop"] = true
 		}
 	end
 	
