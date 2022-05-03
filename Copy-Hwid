@@ -1,0 +1,6 @@
+local Old = game:GetService("RbxAnalyticsService"):GetClientId()
+
+setclipboard("OracleHub : " .. tostring(Old))
+game.Players.LocalPlayer:Kick("\nCopy Hwid Succesfully")
+wait(.1)
+game:Shutdown()
